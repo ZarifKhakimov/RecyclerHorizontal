@@ -30,10 +30,19 @@ public class RecyclerActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new GridLayoutManager(context, 1));
 
         ArrayList<Member> members = new ArrayList<>();
-        members.add(new Member(R.drawable.iphone, "Xurshidbek"));
-        members.add(new Member(R.drawable.kosmos, "Begzodbek"));
-        members.add(new Member(R.drawable.iphone, "Xurshidbek"));
-        members.add(new Member(R.drawable.kosmos, "Xurshidbek"));
+        members.add(new Member(R.drawable.alisher_davlatov, "Akmal Davlatov"));
+        members.add(new Member(R.drawable.xurshidbek_qurbonov, "Xurshidbek Qurbobov"));
+        members.add(new Member(R.drawable.mehrob_aka, "Mehrob Fayziyev"));
+        members.add(new Member(R.drawable.me, "Asilbek Jahonov"));
+        members.add(new Member(R.drawable.sanjarbek_suvonov_s, "Sanjarbek Suvonov"));
+        members.add(new Member(R.drawable.akmal_paiziyev, "Akmal Paiziyev"));
+        members.add(new Member(R.drawable.davronbek_turdiyev, "Davronbek Turdiyev"));
+        members.add(new Member(R.drawable.dilshod_mirsoatov, "Dilshod Mirsoatov"));
+        members.add(new Member(R.drawable.kadirov_dev, "Akmal Qodirov"));
+        members.add(new Member(R.drawable.nurbek_boboyev_n, "Nurbek Boboyev"));
+        members.add(new Member(R.drawable.umidjon_ishmuhammedov, "Umidjon Ishmuhamedov"));
+        members.add(new Member(R.drawable.odilbek_mirzayev, "Odilbek Mirzayev"));
+
 
         refreshAdapter(members);
     }
