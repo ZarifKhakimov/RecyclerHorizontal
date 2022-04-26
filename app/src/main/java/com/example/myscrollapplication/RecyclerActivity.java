@@ -27,7 +27,7 @@ public class RecyclerActivity extends AppCompatActivity {
     void initViews(){
         context = this;
         recyclerView = findViewById(R.id.recyclerview);
-        recyclerView.setLayoutManager(new GridLayoutManager(context, 1));
+        recyclerView.setLayoutManager(new GridLayoutManager(context, 2));
 
         ArrayList<Member> members = new ArrayList<>();
         members.add(new Member(R.drawable.alisher_davlatov, "Akmal Davlatov"));

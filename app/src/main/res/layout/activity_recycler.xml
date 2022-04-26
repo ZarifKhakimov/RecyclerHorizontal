@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RecyclerActivity">
 
     <androidx.core.widget.NestedScrollView
         android:descendantFocusability="blocksDescendants"
@@ -11,14 +12,14 @@
         android:layout_height="match_parent">
 
         <androidx.recyclerview.widget.RecyclerView
+
+            app:spanCount="2"
             android:id="@+id/recyclerview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
 
         </androidx.recyclerview.widget.RecyclerView>
-
-
 
     </androidx.core.widget.NestedScrollView>
 
