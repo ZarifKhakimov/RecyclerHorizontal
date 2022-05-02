@@ -1,9 +1,12 @@
 package com.example.myscrollapplication.model;
 
-public class Member {
 
-    private int profile;
-    private String fullname;
+import java.io.Serializable;
+
+public class Member implements Serializable {
+
+    private final int profile;
+    private final String fullname;
 
     public int getProfile() {
         return profile;
@@ -22,7 +25,7 @@ public class Member {
     public String toString() {
         return "Member{" +
                 "profile=" + profile +
-                ", fullName='" + fullname + '\'' +
+                ", fullname='" + fullname + '\'' +
                 '}';
     }
 }

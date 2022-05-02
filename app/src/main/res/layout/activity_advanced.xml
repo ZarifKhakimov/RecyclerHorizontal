@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-40dp"
+        tools:layout_editor_absoluteY="-101dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+<!--            <EditText-->
+<!--                android:layout_width="330dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="top|center_horizontal"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/edittext_bottom_border"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="Write there"-->
+<!--                android:padding="10dp"-->
+<!--                android:textSize="25sp" />-->
+
+<!--            <EditText-->
+<!--                android:layout_width="330dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="top|center_horizontal"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/edittext_border_color"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="Write there"-->
+<!--                android:padding="10dp"-->
+<!--                android:textSize="25sp" />-->
+
+<!--            <EditText-->
+<!--                android:layout_width="330dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="top|center_horizontal"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/edittext_border_style"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="Write there"-->
+<!--                android:padding="10dp"-->
+<!--                android:textSize="25sp" />-->
+
+<!--            <EditText-->
+<!--                android:layout_width="330dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="top|center_horizontal"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/edittext_roundedcorners_border"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="Write there"-->
+<!--                android:padding="10dp"-->
+<!--                android:textSize="25sp" />-->
+
+<!--            <Button-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_gravity="top|center_horizontal"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/button_gradient"-->
+<!--                android:text="Click Me"-->
+<!--                app:backgroundTint="@null" />-->
+
+<!--            <Button-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_gravity="top|center_horizontal"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/button_cyrcle"-->
+<!--                android:text="Click Me"-->
+<!--                app:backgroundTint="@null" />-->
+
+<!--            <Button-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_gravity="top|center_horizontal"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/button_borders"-->
+<!--                android:text="Click Me"-->
+<!--                android:textColor="#000000"-->
+<!--                app:backgroundTint="@null" />-->
+
+<!--            <Button-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_gravity="top|center_horizontal"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/button_dashed"-->
+<!--                android:text="Click Me"-->
+<!--                android:textColor="#000000"-->
+<!--                app:backgroundTint="@null" />-->
+
+<!--            <Button-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_gravity="top|center_horizontal"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/button_gradient_rotate"-->
+<!--                android:text="Click Me"-->
+<!--                android:textColor="#000000"-->
+<!--                app:backgroundTint="@null" />-->
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_width="106dp"-->
+<!--            android:layout_height="106dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="@drawable/image_cyrcle_border">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                app:cardCornerRadius="50dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/iphone" />-->
+<!--            </androidx.cardview.widget.CardView>-->
+<!--        </RelativeLayout>-->
+
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_width="206dp"-->
+<!--                android:layout_height="206dp"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:padding="5dp"-->
+<!--                app:strokeWidth="3dp"-->
+<!--                app:strokeColor="#833AB4"-->
+<!--                app:shapeAppearanceOverlay="@style/cyrcle"-->
+<!--                android:src="@drawable/kosmos" />-->
+
+<!--            <TextView-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="30sp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:id="@+id/textView"/>-->
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_gravity="center"
+                android:layout_width="156dp"
+                android:layout_height="156dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#833AB4"
+                app:shapeAppearanceOverlay="@style/roundedImageView"
+                android:src="@drawable/kosmos" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#833AB4"
+                app:shapeAppearanceOverlay="@style/cutCorner"
+                android:src="@drawable/yahyo_mishqi" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

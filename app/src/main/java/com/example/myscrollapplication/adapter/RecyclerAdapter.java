@@ -1,16 +1,21 @@
 package com.example.myscrollapplication.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myscrollapplication.R;
+import com.example.myscrollapplication.activity.ProfileActivity;
 import com.example.myscrollapplication.model.Member;
+import com.example.myscrollapplication.model.User;
 
 import java.util.ArrayList;
 
@@ -22,11 +27,11 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         this.context = context;
         this.members = members;
     }
-
     @Override
     public int getItemCount() {
         return members.size();
     }
+
 
     @NonNull
     @Override
@@ -49,7 +54,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         }
     }
 
-    public class MemberViewHolder extends RecyclerView.ViewHolder{
+    public class MemberViewHolder extends RecyclerView.ViewHolder  implements View.OnClickListener{
         public View view;
         public ImageView iv_profile;
         public TextView tv_fullname;
@@ -60,6 +65,15 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
             iv_profile = view.findViewById(R.id.img_profile);
             tv_fullname = view.findViewById(R.id.tv_fullname);
+            view.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            int position = getAdapterPosition();
+            Toast.makeText(context, "position"+position, Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(context, ProfileActivity.class);
+            context.startActivity(intent);
         }
     }
 }
