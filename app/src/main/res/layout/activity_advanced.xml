@@ -176,7 +176,11 @@
                 app:shapeAppearanceOverlay="@style/cutCorner"
                 android:src="@drawable/yahyo_mishqi" />
 
-        </LinearLayout>
+
+
+    </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

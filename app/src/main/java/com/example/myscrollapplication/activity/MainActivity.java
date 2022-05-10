@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void openRecyclerActivity(){
-        Intent intent = new Intent(this, AdvancedActivity.class);
+        Intent intent = new Intent(this, Listener.class);
         startActivity(intent);
     }
 
